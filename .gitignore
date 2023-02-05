@@ -1,0 +1,24 @@
+*.log
+.env
+
+terraform.tf*
+.terraform
+
+#csv
+*.csv
+*.csv.*
+
+#system
+airflow/dags/__pycache__
+.DS*
+
+
+
+# macos
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# pgadmin
+data_pgadmin
+
