@@ -2,6 +2,9 @@
 .env
 
 terraform.tf*
+terraform/.terraform-version
+terraform/.terraform.lock.hcl
+
 .terraform
 
 #csv
@@ -12,8 +15,10 @@ terraform.tf*
 airflow/dags/__pycache__
 .DS*
 
+airflow/logs/
+airflow/plugins/
 
-
+ny_taxi_postgres_data
 # macos
 .DS_Store
 .AppleDouble
